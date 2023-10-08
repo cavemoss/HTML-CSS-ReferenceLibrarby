@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link>
+        <style>
+            button{height: 30px; margin: 5px}
+
+            .stretch{
+                background-color: lightpink; 
+                height: 40px; 
+                width: 60px; 
+                border: none; 
+                transition: 0.15s
+            }
+            .stretch:hover{height: 50px; width: 70px}
+
+            .click{
+                margin: 10px;
+                padding: 0px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                transition: 0.07s;
+            }
+            .click:hover{opacity: 0.9;}
+            .click:active{margin-top: 12px; margin-left: 12px; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0)}
+
+            .one, .two, .three {
+                width: 40px; 
+                margin-left: 10px;
+                margin-right: 10px       
+            }         
+            .three:hover{margin-right: 0px; margin-left: 0px; width: 60px}
+            .one:hover{margin-right: 0px; margin-left: 0px; width: 60px}
+            .two:hover{margin-right: 0px; margin-left: 0px; width: 60px}
+   
+        </style>
+    </head>
+
+    <body>
+
+        <button>Back</button>
+        <a>1 2 3 4 5 6</a>
+        <button>Next</button>
+
+        <button class="stretch">Stretch</button>
+
+        <button style="
+            background-color: lightpink; 
+            height: 40px; 
+            width: 60px; 
+            border: none; 
+            transition: 0.15s
+        " class="click">Click</button>
+
+        <button style="
+            background-color: lightblue; 
+            height: 40px; 
+            border: none; 
+            transition: 0.15s;
+        " class="one">1</button>
+
+        <button style="
+            background-color: lightblue; 
+            height: 40px; 
+            border: none; 
+            transition: 0.15s;
+        " class="two">2</button>
+
+        <button style="
+            background-color: lightblue; 
+            height: 40px; 
+            border: none; 
+            transition: 0.15s;
+        " class="three">3</button>
+        
+    </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested Layouts Technique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        p {
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .search-bar {
+            display: block;
+            margin-left: 15px;
+        }
+        .video-preview {
+            vertical-align: top;
+            display: inline-block;
+            width: 300px;
+            margin: 15px;
+        }
+
+
+
+        .thumbnail-row {
+            margin-bottom: 12px;
+        }
+        .img-thumbnail {
+            background-color: beige;
+            width: 300px;
+        }  
+
+
+
+        .pfp-column {
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+        }
+        .img-pfp {
+            border-radius: 42px;
+            width: 100%;
+        }
+
+
+
+        .video-info-column {
+            display: inline-block;
+            width: 200px;
+            padding-left: 12px;
+            padding-top: 6px;
+        }
+        .video-title{
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .video-author, .video-stats{
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+        }
+        .video-author {
+            margin-bottom: 6px;
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <input type="text" placeholder="Search" class="search-bar">
+
+    <div class="video-preview"> 
+        <div class="thumbnail-row">
+            <img src="(path)/Bison_Steak.webp" class="img-thumbnail">
+        </div>
+        <div>
+            <div class="pfp-column">
+                <img class="img-pfp" src="(path)/Abby.webp">
+            </div>
+            <div class="video-info-column">
+                <p class="video-title">The Name of the Video - The Text Here</p>
+                <p class="video-author">Author</p>
+                <p class="video-stats">567 views &#183; 2 days ago</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="video-preview"> 
+        <div class="thumbnail-row">
+            <img src="(path)/Bison_Steak.webp" class="img-thumbnail">
+        </div>
+        <div>
+            <div class="pfp-column">
+                <img class="img-pfp" src="(path)/Abby.webp">
+            </div>
+            <div class="video-info-column">
+                <p class="video-title">The Name of the Video - The Text Here</p>
+                <p class="video-author">Author</p>
+                <p class="video-stats">567 views &#183; 2 days ago</p>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

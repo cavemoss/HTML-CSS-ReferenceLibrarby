@@ -1,0 +1,56 @@
+raw_html_element
+html element container
+void html element
+
+visable element
+invisable element
+
+block element
+in-line block element
+in-line element
+
+height / width
+border
+paddng
+margin
+
+simple text
+html entity
+
+
+element { }
+.class { }
+.class:hover { }
+.class:active { }
+
+
+HTML attributes:
+    class=""
+    src=""
+    href=""
+    target=""
+    type=""
+    placeholder=""
+
+CSS stilazation:
+    color
+    font
+    border
+    shadow
+    opasity
+
+CSS positioning:
+    margin
+    border
+    height / width
+    paddng
+    vertical-align: ;
+
+CSS reactions:
+    transition: ;
+    cursor: ;
+
+Nested Layouts Technique:
+    Grid
+    Flexbox
+    Absolute / Relative Position
